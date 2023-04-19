@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("gambar1.png");
+    background-image: url("gambar2.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -20,4 +20,7 @@
     font-size: 2rem;
     color: #ffffff;
   }
+
+  
+  
   

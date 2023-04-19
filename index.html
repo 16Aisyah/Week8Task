@@ -8,112 +8,143 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link rel="stylesheet" href="tugas.css">
-</head>
-
-<body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/e8be776e05.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand">
+        <img src="gambar3.png" style="width: 150px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Typography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <button class="btn btn-outline-primary" type="submit" style="border-radius: 20px;">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </nav>
   <div class="jumbotron">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 mt-5">
-          <h2>Profesional Business Consulting</h2>
+        <div class="col-md-8" style="margin-top: 150px;">
+          <p class="fs-1 fw-bold">Profesional Business Consulting</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nesciunt inventore accusamus
-            consequatur,
-            nulla repudiandae odit ipsam earum libero necessitatibus incidunt pariatur ab, blanditiis laboriosam
-            mollitia
-            adipisci porro nam officia!</p1>
+          <p class="fs-5">
+            Businet provides reliable business planning, management, and advisory services backed by years of experience
+            in the industry.
+          </p>
         </div>
       </div>
-      <div class="row mt-4">
-        <div class="col">
-          <button type="button" class="btn btn-light">Read More</button>
-          <button type="button" class="btn btn-primary ms-4">Contact us</button>
-        </div>
+      <div class="d-flex justify-content-start flex-wrap">
+        <button type="button" class="btn btn-light" style="border-radius: 20px;">Read more</button>
+        <button type="button" class="btn btn-primary ms-4" style="border-radius: 20px;">Get in Touch</button>
       </div>
     </div>
   </div>
 
   <div class="container mb-5">
     <div class="d-flex justify-content-center mt-5">
+      <span class="badge rounded-pill text-bg-primary text-uppercase">our services</span>
+    </div>
+    <div class="d-flex justify-content-center mt-3">
       <h3>What We Do</h3>
     </div>
     <div class="row mt-4">
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <div class="card shadow-lg">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="d-flex justify-content-center mt-3">
+            <i class="fa-solid fa-computer fa-10x" style="color: #587dbb;"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Market Analysis</h5>
+            <p class="card-text text-center">We support your business with fact-based market research.</p>
           </div>
 
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <div class="card shadow-lg">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="d-flex justify-content-center mt-3">
+            <i class="fa-solid fa-chart-line fa-10x" style="color: #587dbb;"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Funds Management</h5>
+            <p class="card-text text-center">Allowing you to successfully deal with your company’s funds.</p>
           </div>
 
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <div class="card shadow-lg">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="d-flex justify-content-center mt-3">
+            <i class="fa-solid fa-chalkboard fa-10x" style="color: #587dbb;"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">PR & Marketing</h5>
+            <p class="card-text text-center">Helping clients expand awareness and manage their reputation.</p>
           </div>
 
         </div>
       </div>
     </div>
     <div class="row mt-4">
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <div class="card shadow-lg">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="d-flex justify-content-center mt-3">
+            <i class="fa-solid fa-list-ul fa-10x" style="color: #587dbb;"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Business Planning</h5>
+            <p class="card-text text-center">Creating an efficient business plan designed to fit your company.</p>
           </div>
 
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <div class="card shadow-lg">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="d-flex justify-content-center mt-3">
+            <i class="fa-solid fa-magnifying-glass fa-10x" style="color: #587dbb;"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Audit</h5>
+            <p class="card-text text-center">Deep and detailed investigation of your company’s activity.</p>
           </div>
 
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-md-4 mb-3">
         <div class="card shadow-lg">
-          <img src="..." class="card-img-top" alt="...">
+          <div class="d-flex justify-content-center mt-3">
+            <i class="fa-regular fa-comments fa-10x" style="color: #587dbb;"></i>
+          </div>
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <h5 class="card-title text-center">Consulting</h5>
+            <p class="card-text text-center">Focusing on our clients’ most critical issues and opportunities.</p>
           </div>
 
         </div>
@@ -124,13 +155,44 @@
   <div class="p-3 bg-primary text-white">
     <div class="container mb-5 mt-5">
       <div class="row">
-        <div class="col-md-6">
-          <img class="shadow-lg" src="gambar1.png" style="width: 500px;border-radius: 5px;">
+        <div class="col-md-6 mb-3">
+          <img class="shadow-lg img-fluid" src="gambar4.jpg" style="width: 500px;border-radius: 5px;">
         </div>
         <div class="col-md-6">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum esse nostrum consequatur nam
-            accusantium quaerat necessitatibus maxime eius animi cum, et ipsum iusto ullam velit laborum. Voluptates
-            beatae amet nihil!</p>
+          <div class="container">
+            <div class="row mb-3">
+              <div class="col">
+                <span class="badge rounded-pill text-bg-secondary text-uppercase">About BUSINET</span>
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col">
+                <h1>
+                  A Few Words About Us
+                </h1>
+              </div>
+            </div>
+            <p>
+              Our consulting company is a leading firm of business managers and advisors with offices across the USA. We
+              aim to provide you:
+            </p>
+            <div class="row mb-3">
+              <div class="col">
+                <ul>
+                  <li>
+                    Quality research & analysis
+                  </li>
+                  <li>
+                    Business advisory experience
+                  </li>
+                  <li>
+                    Reliable company management
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <button type="button" class="btn btn-light" style="border-radius: 20px;">Read more</button>
+          </div>
         </div>
       </div>
     </div>
