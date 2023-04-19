@@ -1,0 +1,23 @@
+.jumbotron {
+    background-image: url("gambar1.png");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center; */
+  }
+  
+  .jumbotron h1 {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  .jumbotron p {
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  
